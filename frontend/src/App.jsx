@@ -25,7 +25,7 @@ import {
   PieChart as PieChartIcon
 } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://lyfjsshs-qr-attendance-system.onrender.com';
 
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
