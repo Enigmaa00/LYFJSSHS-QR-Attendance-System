@@ -91,7 +91,6 @@ export default function App() {
   },
 });
 
-export default api;
 
   const handleSignup = async (e) => {
     e.preventDefault();
@@ -656,3 +655,5 @@ export default api;
     </div>
   );
 }
+
+export default api;
