@@ -84,14 +84,6 @@ export default function App() {
     }
   };
 
-  const api = axios.create({
-  baseURL: 'https://lyfjsshs-qr-attendance-system.onrender.com', // Replace with your actual Render URL
-  headers: {
-    'Content-Type': 'application/json',
-  },
-});
-
-
   const handleSignup = async (e) => {
     e.preventDefault();
     setAuthError('');
@@ -656,4 +648,3 @@ export default function App() {
   );
 }
 
-export default api;
